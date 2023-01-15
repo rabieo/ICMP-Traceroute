@@ -26,7 +26,7 @@ python3 traceroute.py google.com
 Note: The script may require root permission to run on Linux as it uses raw sockets.
 
 ## Limitations
-The script may not work properly on some networks which block ICMP packets.
-The script may not work properly on some hosts that do not respond to ICMP echo request packets.
-The script may not work properly on some hosts that respond to ICMP echo request packets with a different protocol.
-It is not a good idea to use this code for any kind of production use, it is for demonstration and educational purposes only.
+- The script may not work properly on some networks which block ICMP packets.
+- The script may not work properly on some hosts that do not respond to ICMP echo request packets.
+- The script may not work properly on some hosts that respond to ICMP echo request packets with a different protocol.
+- It is not a good idea to use this code for any kind of production use, it is for demonstration and educational purposes only.
